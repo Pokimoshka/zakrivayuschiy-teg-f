@@ -44,7 +44,7 @@
   padding-block: 8em;
 }
 
-.header-custom h1{
+.header-custom h1 {
   font-size: var(--font-size-header-h1);
   margin-block-end: 20px;
 }
@@ -343,7 +343,7 @@ button:focus-visible .button__text {
   filter: sepia(50%);
 }
 
-.effect-saturate{
+.effect-saturate {
   filter: saturate(10%) brightness(80%);
 }
 
