@@ -331,6 +331,10 @@ button:focus-visible .button__text {
   inline-size: 100%;
 }
 
+.effect-invert {
+  filter: invert(20%);
+}
+
 .effect-dark {
   filter: brightness(80%);
 }
@@ -341,6 +345,14 @@ button:focus-visible .button__text {
 
 .effect-sepia {
   filter: sepia(50%);
+}
+
+.effect-hue-rotate {
+  filter: hue-rotate(15deg);
+}
+
+.effect-grayscale {
+  filter: grayscale(100%);
 }
 
 .effect-saturate {
