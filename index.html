@@ -11,10 +11,9 @@
     <link rel="stylesheet" href="./styles/animations.css" />
 
     <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="./svg/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./images/favicon.png" type="image/png">
   </head>
   <body class="page">
-    <div class="bgc"></div>
     <header class="header block-width">
       <div class="header-custom">
         <h1>&lt;/html&gt;</h1>
@@ -30,9 +29,9 @@
         </div>
         <div class="card-image">
           <img class="effect-invert" src="./images/1.jpg" alt="Первая картинка">
-          <div class="card-image__label">
+          <span class="card-image__label">
            &lt;Готовимся&gt;
-          </div>
+          </span>
         </div>
         <div class="card-text">
           <div class="card-text__paragraph">
@@ -43,7 +42,7 @@
             <p>Я представлял, что будет все по-другому. Было интересно узнать как будет проходить обучение.</p>
           </div>
           <div class="card-btn">
-            <button class="card__like-button">        
+            <button class="card__icon-button" type="button">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--contour-color)"/>
@@ -52,6 +51,8 @@
                 </g>
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--animation-fill-color)"/>
               </svg>
+            </button>
+            <button class="card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -65,9 +66,9 @@
         </div>
         <div class="card-image">
           <img class="effect-dark" src="./images/2.jpg" alt="Вторая картинка">
-          <div class="card-image__label">
+          <span class="card-image__label">
            &lt;Чистый лист&gt;
-          </div>
+          </span>
         </div>
         <div class="card-text">
           <div class="card-text__paragraph">
@@ -78,7 +79,7 @@
             <p>Этот спринт был интересным, вспомнил свои знания в верстке.</p>
           </div>
           <div class="card-btn">
-            <button class="card__like-button">
+            <button class="card__icon-button" type="button">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--contour-color)"/>
@@ -87,7 +88,10 @@
                 </g>
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--animation-fill-color)"/>
               </svg>
-              <span class="button__text">Like</span></button>
+            </button>
+            <button class="card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
           </div>
         </div>
       </div>
@@ -99,9 +103,9 @@
         </div>
         <div class="card-image">
           <img class="effect-blur" src="./images/3.jpg" alt="Третья картинка">
-          <div class="card-image__label">
+          <span class="card-image__label">
            &lt;Получилось&gt;
-          </div>
+          </span>
         </div>
         <div class="card-text">
           <div class="card-text__paragraph">
@@ -111,7 +115,7 @@
             <p>Я справился с первой практической работой, думаю дальше будет также.</p>
           </div>
           <div class="card-btn">
-            <button class="card__like-button">
+            <button class="card__icon-button" type="button">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--contour-color)"/>
@@ -120,7 +124,10 @@
                 </g>
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--animation-fill-color)"/>
               </svg>
-              <span class="button__text">Like</span></button>
+            </button>
+            <button class="card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
           </div>
         </div>
       </div>
@@ -132,9 +139,9 @@
         </div>
         <div class="card-image">
           <img class="effect-sepia" src="./images/4.jpg" alt="Четвертая картинка">
-          <div class="card-image__label">
+          <span class="card-image__label">
            &lt;Началось...&gt;
-          </div>
+          </span>
         </div>
         <div class="card-text">
           <div class="card-text__paragraph">
@@ -145,7 +152,7 @@
             <p>Вроде пока спринт кажется не таким сложным. Посмотрю как будет дальше</p>
           </div>
           <div class="card-btn">
-            <button class="card__like-button">
+            <button class="card__icon-button" type="button">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--contour-color)"/>
@@ -154,7 +161,10 @@
                 </g>
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--animation-fill-color)"/>
               </svg>
-              <span class="button__text">Like</span></button>
+            </button>
+            <button class="card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
           </div>
         </div>
       </div>
@@ -166,9 +176,9 @@
         </div>
         <div class="card-image">
           <img class="effect-hue-rotate" src="./images/5.jpg" alt="Пятая картинка">
-          <div class="card-image__label">
+          <span class="card-image__label">
            Города
-          </div>
+          </span>
         </div>
         <div class="card-text">
           <div class="card-text__paragraph">
@@ -179,7 +189,7 @@
             <p>Эти города будут мне сниться...</p>
           </div>
           <div class="card-btn">
-            <button class="card__like-button">
+            <button class="card__icon-button" type="button">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--contour-color)"/>
@@ -188,7 +198,10 @@
                 </g>
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--animation-fill-color)"/>
               </svg>
-              <span class="button__text">Like</span></button>
+            </button>
+            <button class="card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
           </div>
         </div>
       </div>
@@ -200,9 +213,9 @@
         </div>
         <div class="card-image">
           <img class="effect-saturate" src="./images/6.jpg" alt="Шестая картинка">
-          <div class="card-image__label">
+          <span class="card-image__label">
            &lt;О, адаптивность&gt;
-          </div>
+          </span>
         </div>
         <div class="card-text">
           <div class="card-text__paragraph">
@@ -212,7 +225,7 @@
             <p>Спринт будет полезным, адаптивность важный элемент верстки./p>
           </div>
           <div class="card-btn">
-            <button class="card__like-button">
+            <button class="card__icon-button" type="button">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--contour-color)"/>
@@ -221,7 +234,10 @@
                 </g>
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--animation-fill-color)"/>
               </svg>
-              <span class="button__text">Like</span></button>
+            </button>
+            <button class="card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
           </div>
         </div>
       </div>
@@ -233,9 +249,9 @@
         </div>
         <div class="card-image">
           <img class="effect-grayscale" src="./images/7.jpg" alt="Седьмая картинка">
-          <div class="card-image__label">
+          <span class="card-image__label">
            &lt;Dark - Light;&gt;
-          </div>
+          </span>
         </div>
         <div class="card-text">
           <div class="card-text__paragraph">
@@ -246,7 +262,7 @@
             <p>Справился, 1 ошибка и я почти в другой когорте.</p>
           </div>
           <div class="card-btn">
-            <button class="card__like-button">
+            <button class="card__icon-button" type="button">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--contour-color)"/>
@@ -255,7 +271,10 @@
                 </g>
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--animation-fill-color)"/>
               </svg>
-              <span class="button__text">Like</span></button>
+            </button>
+            <button class="card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
           </div>
         </div>
       </div>
@@ -267,9 +286,9 @@
         </div>
         <div class="card-image">
           <img class="effect-dark" src="./images/8.jpg" alt="Восьмая картинка">
-          <div class="card-image__label">
+          <span class="card-image__label">
            &lt;Отстал&gt;
-          </div>
+          </span>
         </div>
         <div class="card-text">
           <div class="card-text__paragraph">
@@ -280,7 +299,7 @@
             <p>Справился с теорией, жесткий дедлайн догоняет.</p>
           </div>
           <div class="card-btn">
-            <button class="card__like-button">
+            <button class="card__icon-button" type="button">
               <svg class="like-icon" width="39" height="36" viewBox="0 0 39 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g class="heart">
                   <path class="contour" d="M12 6H9V9H12V6ZM15 6H12V9H15V6ZM9 9H6V12H9V9ZM9 12H6V15H9V12ZM9 15H6V18H9V15ZM18 6H15V9H18V6ZM12 18H9V21H12V18ZM15 21H12V24H15V21ZM18 24H15V27H18V24ZM27 6H30V9H27V6ZM24 6H27V9H24V6ZM30 9H33V12H30V9ZM30 12H33V15H30V12ZM30 15H33V18H30V15ZM21 6H24V9H21V6ZM27 18H30V21H27V18ZM24 21H27V24H24V21ZM21 24H24V27H21V24ZM21 27H18V30H21V27ZM21 9H18V12H21V9Z" fill="var(--contour-color)"/>
@@ -289,7 +308,10 @@
                 </g>
                 <path class="sparks" d="M36 13H39V16H36V13ZM27 27H30V30H27V27ZM18 33H21V36H18V33ZM9 27H12V30H9V27ZM24 0H27V3H24V0ZM33 3H36V6H33V3ZM3 3H6V6H3V3ZM12 0H15V3H12V0ZM0 13H3V16H0V13Z" fill="var(--animation-fill-color)"/>
               </svg>
-              <span class="button__text">Like</span></button>
+            </button>
+            <button class="card__like-button" type="button">
+              <span class="button__text">Like</span>
+            </button>
           </div>
         </div>
       </div>
@@ -300,14 +322,14 @@
         <span class="button__text">Сохранить на память</span>
       </button>
     </main>
-    <dialog id="dialog">
+    <dialog class="dialog" id="dialog">
       <div class="dialog-text">
         <div class="svg">
           <svg width="39" height="39" viewBox="0 0 39 39">
             <use href="./svg/disk.svg#disk"/>
           </svg>
         </div>
-        <span>Вставьте дискету, чтобы продолжить</span>
+        <p>Вставьте дискету, чтобы продолжить</p>
       </div>
       <button class="btn btn-close" type="button" onclick="window['dialog'].close();"><span class="button__text">ok</span></button>
     </dialog>
