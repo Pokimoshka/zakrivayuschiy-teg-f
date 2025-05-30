@@ -184,7 +184,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-block-end: 28px;
+  margin-block-end: 30px;
 }
 
 .dialog-text svg use {
@@ -204,11 +204,11 @@
   padding-inline: 0;
   padding-block: 10px;
   text-transform: uppercase;
+  font-size: var(--font-size-button);
 }
 
 .btn-close .button__text {
   width: 100%;
-  font-size: var(--font-size-button);
 }
 
 button:focus {
