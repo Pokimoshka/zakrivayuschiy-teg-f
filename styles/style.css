@@ -69,8 +69,8 @@
   padding-inline: 10px 24px;
   padding-block: 1px;
   font-size: var(--font-size-card-title);
-  font-weight: 700;
-  line-height: 1.6em;
+  font-variation-settings: "wght" var(--weight-card-title);
+  line-height: 1.4em;
 }
 
 .card-image {
@@ -215,7 +215,8 @@ button:focus {
 }
 
 .btn:focus-visible,
-.card__like-button:focus-visible{
+.card__like-button:focus-visible,
+.card__icon-button:focus-visible{
   box-shadow: 2px 2px 0 black;
 }
 
@@ -370,10 +371,6 @@ button:focus {
     max-inline-size: 375px;
   }
 
-  .card-title h2 {
-    line-height: 1.4em;
-  }
-
   .btn-save {
     flex-direction: column;
   }
@@ -396,5 +393,7 @@ button:focus {
     -webkit-text-stroke: 1px #fff;
     text-stroke: 1px #fff;
     text-shadow: none;
+    top: 23px;
+    right: 12px;
   }
 } 

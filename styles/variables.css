@@ -4,7 +4,7 @@
     --other-font: "PressStart2P", sans-serif;
     --font-size-header: clamp(3.0625rem, 2.7768rem + 1.4286vw, 4.0625rem);
     --font-size-header-p: clamp(0.875rem, 0.7143rem + 0.8036vw, 1.4375rem);
-    --weight-card-title: 900;
+    --weight-card-title: 700;
     --weight-card-text: 400;
     --max-width: 700px;
     --font-size-card-title: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
