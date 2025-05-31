@@ -92,8 +92,8 @@
   font-weight: var(--weight-card-text);
   font-family: var(--other-font, sans-serif);
   color: black;
-  top: 25px;
-  right: 25px;
+  top: 28px;
+  right: 24px;
   mix-blend-mode: hard-light;
   text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
   opacity: 0.5;
@@ -130,7 +130,7 @@
 .card-btn button span {
   position: relative;
   display: inline-block;
-  padding-block: 9px;
+  padding-block: 10px;
   border: 2px solid #fff;
   overflow: hidden;
   max-inline-size: 130px;
@@ -183,7 +183,6 @@
 .dialog-text {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-block-end: 30px;
 }
 
@@ -216,9 +215,12 @@ button:focus {
 }
 
 .btn:focus-visible,
-.card__like-button:focus-visible,
-.card__icon-button:focus-visible{
+.card__like-button:focus-visible{
   box-shadow: 2px 2px 0 black;
+}
+
+.card__icon-button:focus-visible svg{
+  outline: 2px solid currentColor;
 }
 
 .button__text::before {
@@ -357,6 +359,18 @@ button:focus {
   filter: saturate(10%) brightness(80%);
 }
 
+/*А вдруг не поддерживается...*/
+
+@supports((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
+  .card-image__label {
+    -webkit-text-stroke: 1px #fff;
+    text-stroke: 1px #fff;
+    text-shadow: none;
+    top: 28px;
+    right: 24px;
+  }
+} 
+
 @media (width <= 375px) {
   .header {
     max-inline-size: 100%;
@@ -385,16 +399,9 @@ button:focus {
   .btn-save svg use {
     transform: scale(1.333);
   }
-}
 
-/*А вдруг не поддерживается...*/
-
-@supports((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
   .card-image__label {
-    -webkit-text-stroke: 1px #fff;
-    text-stroke: 1px #fff;
-    text-shadow: none;
     top: 23px;
     right: 12px;
   }
-} 
+}
